@@ -1,0 +1,1 @@
+this is the readme for the Odin landing page project.
