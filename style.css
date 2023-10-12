@@ -1,0 +1,88 @@
+html,
+body{
+    margin: 0;
+    font-family: roboto;
+}
+div{
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+}
+
+.first,
+.fifth{
+    background-color: #1f2937;
+}
+
+.first{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 20px;
+}
+
+.first-main,
+.header,
+.second,
+.third,
+.fourth,
+.fifth {
+    margin: 10px 250px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+}
+
+.header img{
+    display: inherit;
+    justify-content: flex-start;
+    margin-right: auto;
+    width: 80px;
+}
+
+.avg-text{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+    max-width: 500px;
+}
+
+.first-main{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    margin-bottom: 120px;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.hero-main-text{
+    display: inherit;
+    flex-wrap: wrap;
+    width: 400px;
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    margin: 0;
+}
+button,
+.fourth{
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+button{
+    width: 100px;
+    border-radius: 10px;
+}
+
+.first-main img{
+    display: flex;
+    align-self: end;
+}
