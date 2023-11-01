@@ -9,6 +9,11 @@ div{
     justify-content: center;
 }
 
+body div{
+    display: flex;
+    flex-direction: column;
+}
+
 .first,
 .fifth{
     background-color: #1f2937;
@@ -26,7 +31,9 @@ div{
 .third,
 .fourth,
 .fifth {
-    margin: 10px 250px;
+    display: flex;
+    margin: 20px 250px;
+    gap: 20px;
 }
 
 .header{
@@ -85,4 +92,34 @@ button{
 .first-main img{
     display: flex;
     align-self: end;
+}
+
+/*second part*/
+.second{
+    display: flex;
+    gap: 80px;
+    margin-bottom: 50px;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+}
+
+.sec-boocs{
+    margin: 0px 100px;
+}
+#info-header{
+    text-align: center;
+    font-size: 90px;
+    font-weight: bolder;
+}
+.mid-img{
+    width:  200px;
+    height: 200px;
+}   
+.second .avg-text{
+    max-width: 200px;
+    color: #7f8695;
+    text-align: center;
 }
