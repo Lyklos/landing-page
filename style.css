@@ -28,7 +28,7 @@ body div{
 .first-main,
 .header,
 .second,
-.third,
+.quote,
 .fourth,
 .fifth {
     display: flex;
@@ -104,10 +104,11 @@ button{
 .images{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .sec-boocs{
-    margin: 0px 100px;
+    margin: 0px 50px;
 }
 #info-header{
     text-align: center;
@@ -122,4 +123,50 @@ button{
     max-width: 200px;
     color: #7f8695;
     text-align: center;
+}
+/*Third part*/
+.third{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #e5e7eb;
+}
+
+.third p{
+    margin: 0px;
+}
+.quote{
+    display: inherit;
+    align-items: end;
+    font-size: 40px;
+    font-style: italic;
+    color: #1f2937;
+    gap: 10px;
+    margin: 120px 400px;
+}
+/*fourth part*/
+
+.fourth{
+    display: flex;
+    flex-flow: row wrap;
+    border-radius: 10px;
+    padding: 30px 90px;
+    gap: 20px;
+    margin: 20px 300px;
+    align-items: center;
+}
+
+.fourth button{
+    display: inherit;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.cta{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 15px;
 }
