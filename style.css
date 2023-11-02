@@ -30,7 +30,7 @@ body div{
 .second,
 .quote,
 .fourth,
-.fifth {
+.fifth p{
     display: flex;
     margin: 20px 250px;
     gap: 20px;
@@ -48,7 +48,7 @@ body div{
     display: inherit;
     justify-content: flex-start;
     margin-right: auto;
-    width: 80px;
+    width: 50px;
 }
 
 .avg-text{
@@ -86,7 +86,9 @@ button,
 }
 button{
     width: 100px;
-    border-radius: 10px;
+    border-radius: 5px;
+    border: #3882f6;
+    padding: 5px;
 }
 
 .first-main img{
@@ -169,4 +171,10 @@ button{
     flex-direction: column;
     justify-content: end;
     gap: 15px;
+}
+
+.fifth{
+    display: flex;
+    align-items: center;
+    padding: 10px;
 }
